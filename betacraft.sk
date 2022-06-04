@@ -3,8 +3,78 @@ every 1 ticks:
         set loop-player's hunger to 3
         set loop-player's total xp to 0
 
-on eat:
+on right click with raw beef:
+    heal the event-player by 1.5 hearts
+    remove 1 raw beef from event-player
     cancel event
+
+on right click with raw porkchop:
+    heal the event-player by 1.5 hearts
+    remove 1 raw porkchop from event-player
+    cancel event
+
+on right click with raw mutton:
+    heal the event-player by 1 hearts
+    remove 1 raw mutton from event-player
+    cancel event
+
+on right click with raw chicken:
+    heal the event-player by 1 hearts
+    remove 1 raw chicken from event-player
+    cancel event
+
+on right click with raw rabbit:
+    heal the event-player by 1 hearts
+    remove 1 raw rabbit from event-player
+    cancel event
+
+on right click with cooked beef:
+    heal the event-player by 4 hearts
+    remove 1 cooked beef from event-player
+    cancel event
+
+on right click with cooked porkchop:
+    heal the event-player by 4 hearts
+    remove 1 cooked porkchop from event-player
+    cancel event
+
+on right click with cooked mutton:
+    heal the event-player by 3 hearts
+    remove 1 cooked mutton from event-player
+    cancel event
+
+on right click with cooked chicken:
+    heal the event-player by 3 hearts
+    remove 1 cooked chicken from event-player
+    cancel event
+
+on right click with cooked rabbit:
+    heal the event-player by 3 hearts
+    remove 1 cooked rabbit from event-player
+    cancel event
+
+on right click with bread:
+    heal the event-player by 2.5 hearts
+    remove 1 bread from event-player
+    cancel event
+
+on right click with dried kelp:
+    heal the event-player by 0.5 hearts
+    remove 1 dried kelp from event-player
+    cancel event
+
+on right click with apple:
+    heal the event-player by 1 hearts
+    remove 1 apple from event-player
+    cancel event
+
+on right click with baked potato:
+    heal the event-player by 2.5 hearts
+    remove 1 baked potato from event-player
+    cancel event
+
+on right click on cake:
+    heal the event-player by 1 hearts
 
 on experience spawn:
     clear dropped experience
