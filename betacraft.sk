@@ -1,0 +1,25 @@
+every 1 ticks:
+    loop all players:
+        set loop-player's hunger to 3
+        set loop-player's total xp to 0
+
+on eat:
+    cancel event
+
+on experience spawn:
+    clear dropped experience
+
+on enchant:
+    cancel event
+
+on right click on brewing stand or enchantment table:
+    cancel event
+
+on right click on log with axe:
+    cancel event
+
+on right click on grass block or dirt with shovel:
+    cancel event
+
+on block trample:
+    cancel event
