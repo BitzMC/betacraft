@@ -1,7 +1,7 @@
 every 1 ticks:
     loop all players:
         set loop-player's hunger to 3
-        set loop-player's total xp to 0
+        set loop-player's level to 0
 
 on right click with raw beef:
     heal the event-player by 1.5 hearts
