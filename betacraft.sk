@@ -1,4 +1,4 @@
-every 1 ticks:
+every 5 ticks:
     loop all players:
         set loop-player's hunger to 3
         set loop-player's level to 0
