@@ -93,3 +93,6 @@ on right click on grass block or dirt with shovel:
 
 on block trample:
     cancel event
+
+on swap hand items:
+    cancel event
